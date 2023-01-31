@@ -19,6 +19,7 @@ df = df.replace('', np.nan)
 df = df.replace('MAY90', np.nan)
 
 # Descartando roms com valores NaN
+
 df = df.dropna()
 
 # Checando se foi resolvido
